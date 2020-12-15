@@ -1,85 +1,112 @@
-body { /* as on https://klavogonki.ru/ */
-    font-family: tahoma, sans-serif;
-    font-size: 10pt;
-    color: #222222;
-    margin: 0;
-    padding: 0;
+body {
+  /* as on https://klavogonki.ru/ */
+  font-family: tahoma, sans-serif;
+  font-size: 10pt;
+  color: #222222;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    background-color: lightgray;
-    padding: 10px;
+  background-color: lightgray;
+  padding: 10px;
 }
 
 main {
-    padding: 0 20px;
-    margin: 0;
+  padding: 0 20px;
+  margin: 0;
 }
 
 h2 {
-    color: #dd6600;
-    font-weight: normal;
+  color: #dd6600;
+  font-weight: normal;
 }
 
-a:link, a:visited {
-    color: #0288d1;
+a:link,
+a:visited {
+  color: #0288d1;
 }
 
 a:hover {
-    color: #d32f2f;
+  color: #d32f2f;
 }
 
 /* rank colors, apply to any elements */
 /* see ru.klavogonki.kgparser.Rank#getColor */
-.novice { color: #8D8D8D }
-.amateur { color: #4F9A97 }
-.cabman { color:  #187818 }
-.pro { color: #8C8100 }
-.racer { color: #BA5800 }
-.maniac { color: #BC0143 }
-.superman { color: #5E0B9E }
-.cyberracer { color: #00037C }
-.extracyber { color: #061956 }
+.novice {
+  color: #8d8d8d;
+}
+.amateur {
+  color: #4f9a97;
+}
+.cabman {
+  color: #187818;
+}
+.pro {
+  color: #8c8100;
+}
+.racer {
+  color: #ba5800;
+}
+.maniac {
+  color: #bc0143;
+}
+.superman {
+  color: #5e0b9e;
+}
+.cyberracer {
+  color: #00037c;
+}
+.extracyber {
+  color: #061956;
+}
 
 div.section {
-    margin: 20px 0;
+  margin: 20px 0px;
 }
 
 div.hidden {
-    display: none;
+  display: none;
 }
 
 table.data {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 table.data th {
-    text-align: center;
-    padding: 5px;
-    border: 1px solid gray;
-    background-color: #e0e0e0;
-    font-weight: normal;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid gray;
+  background-color: #e0e0e0;
+  font-weight: normal;
 }
 
 table.data td {
-    padding: 5px;
-    border: 1px solid gray;
+  padding: 5px;
+  border: 1px solid gray;
 }
 
 table.data tr:nth-child(even) {
-    background-color: #eeeeee;
-    /*color: lightgray;*/
+  background-color: #eeeeee;
+  /*color: lightgray;*/
 }
 
 .right {
-    text-align: right;
+  text-align: right;
 }
 
 .left {
-    text-align: left;
+  text-align: left;
 }
 
 canvas.chart {
-    height: 400px;
-    /*width: 80vw;*/
+  /* height: 400px; */
+  /*width: 80vw;*/
+  height: 325px;
+  margin-right: -150px;
+}
+
+.flexWrap {
+  display: flex;
+  align-items: center;
 }
